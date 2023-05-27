@@ -23,7 +23,7 @@ Add it in your root build.gradle at the end of repositories:
 
      RandomNumberSDK randomNumberSDK = new RandomNumberSDK();
      
-   ## 2. Call the getRandomNumber() method to get a random number. This method need to implamens two function onRandomNumberGenerated() , onRandomNumberError().
+   ## 2. Call the getRandomNumber() method to get a random number. This method need to implement two function onRandomNumberGenerated() , onRandomNumberError().
    
       randomNumberSDK.getRandomNumber(new RandomNumberSDK.RandomNumberListener() {
          @Override
